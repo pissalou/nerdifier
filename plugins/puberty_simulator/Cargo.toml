@@ -7,9 +7,13 @@ license = "GPL-3.0-or-later"
 homepage = "https://github.com/robbert-vdh/nih-plug/tree/master/plugins/puberty_simulator"
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "lib"]
+
+[[bin]]
+name = "puberty_simulator"
+path = "src/main.rs"
 
 [dependencies]
-nih_plug = { path = "../../", features = ["assert_process_allocs"] }
+nih_plug = { path = "../../", features = ["assert_process_allocs", "standalone"] }
 
 realfft = "3.0"

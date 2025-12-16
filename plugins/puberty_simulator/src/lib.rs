@@ -39,7 +39,7 @@ const MAX_OVERLAP_ORDER: usize = 5;
 #[allow(dead_code)]
 const MAX_OVERLAP_TIMES: usize = 1 << MAX_OVERLAP_ORDER; // 32
 
-struct PubertySimulator {
+pub struct PubertySimulator {
     params: Arc<PubertySimulatorParams>,
 
     /// An adapter that performs most of the overlap-add algorithm for us.
@@ -439,4 +439,3 @@ impl Vst3Plugin for PubertySimulator {
 
 nih_export_clap!(PubertySimulator);
 nih_export_vst3!(PubertySimulator);
-nih_export_standalone!(PubertySimulator);
