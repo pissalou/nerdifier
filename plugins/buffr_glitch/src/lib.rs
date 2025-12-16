@@ -452,5 +452,5 @@ impl Vst3Plugin for BuffrGlitch {
     ];
 }
 
-nih_export_clap!(BuffrGlitch);
-nih_export_vst3!(BuffrGlitch);
+//nih_export_clap!(BuffrGlitch);
+//nih_export_vst3!(BuffrGlitch);

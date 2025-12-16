@@ -418,5 +418,5 @@ impl Vst3Plugin for SoftVacuum {
         &[Vst3SubCategory::Fx, Vst3SubCategory::Distortion];
 }
 
-nih_export_clap!(SoftVacuum);
-nih_export_vst3!(SoftVacuum);
+//nih_export_clap!(SoftVacuum);
+//nih_export_vst3!(SoftVacuum);

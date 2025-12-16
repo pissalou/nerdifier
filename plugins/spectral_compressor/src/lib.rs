@@ -644,5 +644,5 @@ impl Vst3Plugin for SpectralCompressor {
     ];
 }
 
-nih_export_clap!(SpectralCompressor);
-nih_export_vst3!(SpectralCompressor);
+//nih_export_clap!(SpectralCompressor);
+//nih_export_vst3!(SpectralCompressor);

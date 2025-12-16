@@ -358,5 +358,5 @@ impl Vst3Plugin for Diopser {
     ];
 }
 
-nih_export_clap!(Diopser);
-nih_export_vst3!(Diopser);
+//nih_export_clap!(Diopser);
+//nih_export_vst3!(Diopser);

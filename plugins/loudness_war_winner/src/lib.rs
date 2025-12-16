@@ -277,5 +277,5 @@ impl Vst3Plugin for LoudnessWarWinner {
     ];
 }
 
-nih_export_clap!(LoudnessWarWinner);
-nih_export_vst3!(LoudnessWarWinner);
+//nih_export_clap!(LoudnessWarWinner);
+//nih_export_vst3!(LoudnessWarWinner);

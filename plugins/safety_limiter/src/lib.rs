@@ -350,5 +350,5 @@ impl Vst3Plugin for SafetyLimiter {
         &[Vst3SubCategory::Fx, Vst3SubCategory::Tools];
 }
 
-nih_export_clap!(SafetyLimiter);
-nih_export_vst3!(SafetyLimiter);
+//nih_export_clap!(SafetyLimiter);
+//nih_export_vst3!(SafetyLimiter);

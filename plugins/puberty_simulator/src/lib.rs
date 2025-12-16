@@ -439,3 +439,4 @@ impl Vst3Plugin for PubertySimulator {
 
 nih_export_clap!(PubertySimulator);
 nih_export_vst3!(PubertySimulator);
+nih_export_standalone!(PubertySimulator);

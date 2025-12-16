@@ -415,5 +415,5 @@ impl Vst3Plugin for Crossover {
         &[Vst3SubCategory::Fx, Vst3SubCategory::Tools];
 }
 
-nih_export_clap!(Crossover);
-nih_export_vst3!(Crossover);
+//nih_export_clap!(Crossover);
+//nih_export_vst3!(Crossover);

@@ -510,5 +510,5 @@ impl Vst3Plugin for Crisp {
     ];
 }
 
-nih_export_clap!(Crisp);
-nih_export_vst3!(Crisp);
+//nih_export_clap!(Crisp);
+//nih_export_vst3!(Crisp);
